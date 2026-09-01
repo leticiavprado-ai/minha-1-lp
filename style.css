@@ -5,13 +5,29 @@
     box-sizing: border-box;
 } 
 body{ 
-    display: flex; 
-    justify-content: center; 
-    align-content: center; 
-    max-height: 100vw; 
-    height: 100vw;
-} 
-img{ 
-    width: 55vw;
-    height: 30vw;
+    background-color: rgb(139, 69, 205);
+}  
+header{ 
+    display:flex; 
+    height: 100px; 
+    width: 100vw; 
+    background-color: rgb(86, 86, 224); 
+    align-items: center;
 }
+h1{ 
+    width: 50px; 
+    background-color: rgb(159, 81, 232); 
+    align-content: center; 
+    justify-content: horizontal;
+} 
+p{ 
+    width: 12rem; 
+    height: 35px; 
+    background-color: blueviolet; 
+    align-content: left; 
+    justify-content: horizontal; 
+} 
+#logo{ 
+    width: 100px;
+    height: 100px;
+} 
