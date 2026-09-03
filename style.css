@@ -1,33 +1,71 @@
 
 *{ 
-    margin: 0;
-    padding: 0; 
+    margin: 10;
+    padding: 10; 
     box-sizing: border-box;
 } 
-body{ 
-    background-color: rgb(139, 69, 205);
+body{  
+    margin:0;
+    padding: 0; 
+    background-color: rgb(230, 159, 209); 
+    font-family: sans-serif
 }  
-header{ 
+header{  
     display:flex; 
     height: 100px; 
     width: 100vw; 
-    background-color: rgb(86, 86, 224); 
-    align-items: center;
+    background-color: rgb(186, 9, 133); 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+}  
+header{ 
+    height: 50px;
 }
-h1{ 
-    width: 50px; 
-    background-color: rgb(159, 81, 232); 
-    align-content: center; 
-    justify-content: horizontal;
+nav ul{ 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    gap: 20px; 
 } 
-p{ 
-    width: 12rem; 
-    height: 35px; 
-    background-color: blueviolet; 
-    align-content: left; 
-    justify-content: horizontal; 
-} 
-#logo{ 
-    width: 100px;
-    height: 100px;
-} 
+    nav li{ 
+        color: rgb(215, 11, 157); 
+        cursor: pointer; 
+        padding: 8px 12px; 
+        background-color: rgb(236, 121, 205);
+    } 
+
+    button{ 
+        padding: 8px 16px; 
+        margin-left: 8px; 
+        cursor: pointer; 
+        border: none;
+        background-color: rgb(253, 8, 220); 
+        color: aliceblue; 
+        border-radius: 2px;
+    } 
+    #logo{  
+        display:flex 
+        margin: 3px;
+        width: 100px; 
+        height: 100px;
+    } 
+    footer{ 
+        background-color: rgb(239, 165, 231); 
+        color: bisque; 
+        padding: 20px; 
+        margin-top: 30px;
+    }
+    footer div{ 
+        margin-bottom: 15px; 
+    } 
+    footer a{ 
+        color: bisque; 
+        text-decoration: none; 
+        display: block; 
+        margin:4px 0;
+    } 
+    footer p{ 
+        margin: 5px 0;
+    }
